@@ -1,0 +1,22 @@
+#plan {
+  background-image: url('https://img.icons8.com/cotton/2x/plus--v3.png');
+  background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+button {
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  width: 60px;
+}
+
+html,
+    body {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+    }

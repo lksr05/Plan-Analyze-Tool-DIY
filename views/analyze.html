@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@0.7.7"></script>
+</head>
+
+<body>
+  <div>
+    <input name="fit" type="file" id="fit" accept=".fit">
+  </div>
+  <div class="chartDiv">
+    <canvas id="myChart"></canvas>
+  </div>
+  <label for="smooth">smoothness</label><br>
+  <input id="smooth" type="range" min="0" max="30" step="2">
+  <p id="avg">avg. power: --- </p>
+  <p id="avg2">avg. power w/o 0s: --- </p>
+  <p id="max">max. power: --- </p>
+  <p id="avgHr">avg. heartrate: --- </p>
+  <p id="maxHr">max. heartrate: --- </p>
+  <p id="avgCad">avg. cadence: --- </p>
+  <p id="maxCad">max. cadence: --- </p>
+
+  <button id="plan">Plan</button>
+
+  <script src="analyze.js"></script>
+</body>
+
+</html>

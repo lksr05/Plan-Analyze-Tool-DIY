@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lukas.koser@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "consolidate": "^0.16.0",
+    "express": "^4.17.1",
+    "fit-file-parser": "^1.8.4",
+    "fullcalendar": "^5.5.1",
+    "lodash": "^4.17.20",
+    "mongodb": "^3.6.3"
+  }
+}

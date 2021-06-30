@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+  <script src="plan.js"></script>
+  <div>
+    <label for="time">Set time and date:</label>
+    <input id="time" type="datetime-local">
+  </div><br>
+  <div>
+    <label for="volume">Volume in mins:</label>
+    <input type="number" name="volume" id="volume">
+    <label for="dist">Distance in km:</label>
+    <input type="number" name="dist" id="dist">
+  </div><br>
+  <div>
+    <label for="Sport">Choose a sport:</label>
+
+    <select name="sport" id="sport">
+      <option value="rc">Roadcycling</option>
+      <option value="mtb">MTB</option>
+      <option value="run">Run</option>
+      <option value="swim">Swim</option>
+    </select>
+    <label for="type">Choose a workout type:</label>
+
+    <select name="type" id="type">
+      <option value="HIT">High intensity training</option>
+      <option value="LIT">Low intensity training</option>
+      <option value="Thrsh">Threshold training</option>
+    </select>
+  </div>
+  <div>
+    <label for="workout">Workout describtion:</label>
+    <input type="text" name="workout" id="workout">
+  </div>
+  <button id="submit">Submit</button>
+</body>
+
+</html>
